@@ -23,7 +23,7 @@ public class exercicio3 {
 
         //Lê a quantidade de alunos (n)
         System.out.print("Digite a quantidade de alunos (n): ");
-        int n = leitor.nextInt(); [cite: 21]
+        int n = leitor.nextInt();
 
         int[] prog = new int[n];
         int[] model = new int[n];
@@ -44,7 +44,7 @@ public class exercicio3 {
         System.out.println("Alunos matriculados em ambas as UCs:");
         for (int i = 0; i < n; i++) {
             for (int j = 0;j < n; j ++){
-                if (prog[i] == model[j]) { [cite: 20]
+                if (prog[i] == model[j]) {
                     System.out.println(prog[i]);
                     break; //Para de procurar no segundo vetor se já achou
                 }
