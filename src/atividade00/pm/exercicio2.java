@@ -62,6 +62,7 @@ public class exercicio2 {
                 System.out.println("x não é divisivel por y e por z simultaneamente.");
             }
         
+            
         leitor.close();
     }
 }
