@@ -53,19 +53,22 @@ public class exercicio4 {
                 }
             }
 
-            // Se não existe, adiciona
-            if (!existe) {
-                z[contZ++] = y[i];
-            }
+        // Se não existe, adiciona
+
+        if (!existe) {
+            z[contZ++] = y[i];
         }
-        
-        // Exibe União Z
-        System.out.print("Vetor União Z: [");
-        for (int i = 0; i < contZ; i++) {
-            System.out.print(z[i] + (i == contZ - 1 ? "" : ", "));
-        }
-        System.out.println("]");
+    }
+    
+    // Exibe União Z
+    
+    System.out.print("Vetor União Z: [");
+    for (int i = 0; i < contZ; i++) {
+        System.out.print(z[i] + (i == contZ - 1 ? "" : ", "));
+    }
+    System.out.println("]");
 
         leitor.close();
     }
+}
 
