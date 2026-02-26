@@ -36,7 +36,7 @@ public class exxercicio10 {
                 
                 totalMes += vendas[i][j];
                 totalSemanas[j] += vendas[i][j];
-                totalAno += vendas[i][j];
+                totalAno += vendas[i][j]; 
             }
             
             // Mostrar total de cada mês
