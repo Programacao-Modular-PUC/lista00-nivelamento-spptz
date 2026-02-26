@@ -38,6 +38,7 @@ public class exercicio10 {
                 totalSemanas[j] += vendas[i][j];
                 totalAno += vendas[i][j];
             }
+            
             // Mostrar total de cada mês
             System.out.printf("Total vendido em %s: R$ %.2f\n\n", meses[i], totalMes);
         }
