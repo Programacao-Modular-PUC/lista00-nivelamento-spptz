@@ -14,7 +14,7 @@ import java.util.Scanner;
 /**
      * @param args the command line arguments
      */
-public class exercicio10 {
+public class exxercicio10 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
