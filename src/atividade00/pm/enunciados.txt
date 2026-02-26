@@ -1,0 +1,88 @@
+----------------------------------------------------------------------  Nivelamento - Lista de Revisao de Programação  ----------------------------------------------------------------------
+
+1. Fatorial – Faça um programa que leia um valor inteiro x e calcule seu fatorial. O fatorial (!) e dado pela seguinte fórmula:
+
+    3! = 3 ∗ 2 ∗ 1
+    4! = 4 ∗ 3 ∗ 2 ∗ 1
+    5! = 5 ∗ 4 ∗ 3 ∗ 2 ∗ 1
+
+2. Faça um programa que le 3 valores inteiros (x,y,z), guarde-os em um vetor e faça o seguinte:
+
+    - Calcula o maior dentre tres numeros;
+    - Calcula o menor dentre tres numeros;
+    - Diz se o numero x está dentro do intervalo [y, z];
+    - Diz se o numero x está fora do intervalo [y, z];
+    - Testa se x e divisível por y e por z.
+
+3. Interseção de vetores – Faça um programa que leia dois vetores de inteiros representando o numero de matrícula de n alunos matriculados respectivamente em Programação e Modelagem.
+Em seguida, o programa devera imprimir o número de matrícula dos alunos que estão matriculados simultaneamente nas duas UCs (ou seja, calcular a interseção dos dois vetores).
+O valor de n e lido pelo teclado.
+
+4. Faça um programa para ler dois vetores X e Y, com n e m elementos respectivamente, e calcular um vetor uniao Z. Note que elementos presentes tanto em X como em Y deverão ser incluídos 
+apenas uma vez em Z. Os valores de n e m sao lidos pelo teclado.
+
+5. Foi realizada uma pesquisa de algumas características físicas da população de uma certa região, a qual coletou os seguintes dados referentes a cada habitante para serem analisados:
+
+    • sexo (masculino e feminino)
+    • cor dos olhos (azuis, verdes ou castanhos)
+    • cor dos cabelos ( louros, castanhos, pretos)
+    • idade
+
+Faça um algoritmo que determine e escreva:
+
+    • a maior idade entre os habitantes
+    • a menor idade entre os habitantes
+    • a quantidade de indivíduos do sexo feminino cuja idade esta entre 18 e 35 anos inclusive e que tenham olhos verdes e cabelos louros.
+
+O final do conjunto de habitantes e reconhecido pelo valor -1 entrada como idade.
+
+6. Façaa um programa para corrigir provas de multipla escolha. Cada prova tem 8 questões e cada questao vale um ponto. O primeiro conjunto de dados a ser lido do usuário e o gabarito da prova.
+Os outros dados são os números dos alunos e as respostas que deram as questões. Existem dez alunos matriculados. Calcule e mostre:
+
+    • O número e a nota de cada aluno;
+    • A porcentagem de aprovação, sabendo-se que a nota mínima é 6.
+
+7. Faça um programa que receba a temperatura media de cada mês do ano, armazenando-as em um vetor. Calcule e mostre a maior e a menor temperatura do ano e em que mes ocorreram (mostrar o mes 
+por extenso: 1 – janeiro, 2 – fevereiro…). Desconsidere empates.
+
+8. Uma pequena loja de artesanato possui apenas um vendedor e comercializa dez tipos de objetos. O vendedor recebe, mensalmente, salario de R$ 545,00, acrescido de 5% do valor total de suas 
+vendas. O valor unitario dos objetos deve ser informado e armazenado em um vetor, a quantidade vendida de cada peça deve ficar em outro vetor, mas na mesma posição. Crie um programa que receba
+os preços e as quantidades vendidas, armazenando-os em seus respectivos vetores (ambos com tamanho dez). Depois, determine e mostre:
+
+    • Um relatorio na tela contendo: quantidade vendida, valor unitário e valor total de cada objeto. Ao final, deverao ser mostrados o valor geral das vendas e o valor da comissão que sera
+    paga ao vendedor;
+    • O valor do objeto mais vendido e sua posição no vetor (não se preocupe com empates).
+
+9. Faça um programa que leia 6 numeros inteiros e mostre:
+
+    • Os números pares digitados;
+    • A soma dos números pares digitados;
+    • Os números ímpares digitados;
+    • A quantidade de números ímpares digitados.
+
+Exemplo: Vetor [2, 4, 5, 6, 3, 7]
+
+    RELATORIO
+    Os numeros pares são:
+    número 2 na posição 1
+    numero 4 na posição 2
+    numero 6 na posição 4
+
+Soma dos pares = 12
+Os números ímpares sao:
+
+número 5 na posição 3
+numero 3 na posição 5
+numero 7 na posição 6
+
+Quantidade de ímpares = 3
+
+10. Elabore um programa que preencha uma matriz 12 x 4 com os valores das vendas de uma loja, em que cada linha representa um mês do ano e cada coluna representa uma semana do mês. O programa
+deverá calcular e mostrar:
+
+    • O total vendido em cada mes do ano, mostrando o nome do mês por extenso;
+    • O total vendido em cada semana durante todo o ano;
+    • O total vendido pela loja no ano.
+
+
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
